@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/sheet_bg"
+    android:id="@+id/sheetConteainer"
+    android:layout_alignParentEnd="true"
+    android:elevation="50dp"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Translation"
+        android:padding="16sp"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="#4E4747"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:layout_marginStart="20dp"
+        android:id="@+id/translation_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/urdu_Rb"
+            android:text="Uzbek"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#403D3D"
+            android:checked="true"/>
+        <RadioButton
+            android:padding="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/english_Rb"
+            android:text="English"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#403D3D" />
+
+
+        <RadioButton
+            android:padding="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hindi_Rb"
+            android:text="Turkish "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#403D3D" />
+        <RadioButton
+            android:padding="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tajikRb"
+            android:text="Tajik"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#403D3D" />
+        <RadioButton
+            android:padding="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frenchRb"
+            android:text="French"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#403D3D" />
+        <RadioButton
+            android:padding="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/germanRb"
+            android:text="German"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#403D3D" />
+
+        <RadioButton
+            android:id="@+id/indonesRb"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Indonesian"
+            android:textColor="#403D3D"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:padding="16sp"
+        android:text=" "
+        android:textColor="#4E4747"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_bg"
+        android:text="Save"
+        android:textColor="@color/white" />
+
+</LinearLayout>

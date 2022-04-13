@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:id="@+id/audio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="1dp"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/abdul_basit_murattal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:padding="5dp"
+            android:text="Abdul Basit Murattal"
+            android:textColor="#403D3D"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/al_afasee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Al Afasee"
+            android:textColor="#403D3D"
+
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/adel_rayyan"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Muhammad-Ayoob"
+            android:textColor="#403D3D"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="As Sudais"
+            android:textColor="#403D3D"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

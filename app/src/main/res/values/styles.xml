@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomSheetDialogTheme" parent="Theme.AppCompat.Light.NoActionBar">
+<item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+
+    </style>
+
+    <style name="BottomSheetStyle" parent="Theme.MaterialComponents.NoActionBar">
+<item name="android:background">@color/white</item>
+
+    </style>
+
+    <style name="ErrorAlerter" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+
+    </style>   <style name="DoneAlerter" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+
+    </style>
+</resources>
